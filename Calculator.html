@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <script defer src="Calculator.js"></script>
+</head>
+<body>
+
+  <div>
+    <h2>계산기</h2>
+    <p>단! 소수점 입력 시, 두 번째 자리에서 반올림되어 소수점 첫 번째 자리까지 노출됩니다.</p>
+    <p>값 1번</p>
+    <input type="text" id="text1">
+    <p>값 2번</p>
+    <input type="text" id="text2">
+    <p>결과</p>
+    <input type="text" id="result">
+    <p>
+      <input type="button" value="더하기" onclick="sum()">
+      <input type="button" value="빼기" onclick="minus()">
+      <input type="button" value="곱하기" onclick="multiplication()">
+      <input type="button" value="나누기" onclick="division()">
+    </p>
+  </div>
+
+</body>
+</html>
